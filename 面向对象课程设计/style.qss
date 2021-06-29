@@ -1,0 +1,164 @@
+#mainwindow{
+  border-image:url(KeChengSheJi/CourseDesign/pic/background.jpg);
+}
+
+#typeselect{
+    color:rgb(13,175,233);
+    font: bold 19px "Microsoft YaHei";
+}
+
+#comboBox{
+    border: 3px solid rgb(196,255,255);
+    border-radius: 5px;
+    color: rgb(13,175,233);
+    font:  17px "Microsoft YaHei";
+    background: rgba(196,255,255,120);
+}
+#comboBox QAbstractItemView {
+    outline: 1px solid rgb(217,243,255);
+    color: rgb(0,140,81);
+    background:url(KeChengSheJi/pyqt5/qss/img_1.png);
+    selection-background-color: lightgreen;
+    selection-color: white;
+}
+#comboBox:hover{
+    background:rgba(196,255,255,0);
+}
+
+#fileselect{
+     background-color: rgba(196,255,255,150);
+     border-style: outset;
+     border-width: 4px;
+     border-radius: 10px;
+     border-color: rgba(255, 225, 255, 150);
+     font:  17px "Microsoft YaHei";
+     color:rgba(13,175,233,255);
+}
+#fileselect:hover{
+    background-color:rgba(196,255,255, 255);
+    border-color: rgba(255, 225, 255, 200);
+    color:rgba(13,175,233,255);
+}
+
+#pictext{
+   color: rgb(13,175,233);
+   font:  19px "Microsoft YaHei";
+}
+
+#picname{
+	border: 1px solid rgba(255, 225, 255, 150);
+	border-radius: 3px;
+	background-color: rgba(196,255,255, 255);
+	color: rgba(13,175,233,255);
+	font-family: "Microsoft YaHei";
+	font-size: 19px;
+	selection-background-color: rgb(108,221,107);
+	selection-color: white;
+}
+
+#imagetext{
+    border-width: 0px;
+    font: 50px;
+    /*color:rgba(196,255,255,255);*/
+    color:rgb(251,62,104,200);
+}
+
+#image{
+    border-width: 1px;
+    border-style: solid;
+     border-radius: 10px;
+    /*border-color:rgba(196,255,255,100);
+    background-color: rgba(255, 225, 255, 100);*/
+    border-color: rgba(255, 225, 255, 100);
+    background-color:rgba(196,255,255,100);
+}
+
+#result{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 225, 255, 150);
+    border-radius: 10px;
+}
+
+#resulttext{
+    border-width: 0px;
+    border-radius: 10px;
+     font:   19px "Microsoft YaHei";
+    /*background-color: rgba(255, 225, 255, 100);
+    color:rgb(251,62,104);*/
+    color : rgb(251,62,104);
+    border-color: rgba(255, 225, 255, 100);
+    background-color:rgba(196,255,255,100);
+    selection-background-color: rgb(108,221,107);
+	selection-color: white;
+}
+
+#submitbutton,#resetbutton,#exitbutton{
+     background-color: rgba(196,255,255,150);
+     border-style: outset;
+     border-width: 4px;
+     border-radius: 10px;
+     border-color: rgba(255, 225, 255, 150);
+     font: bold 19px "Microsoft YaHei";
+     color:rgba(13,175,233,255);
+}
+#submitbutton:hover,#resetbutton:hover,#exitbutton:hover{
+    background-color:rgba(196,255,255, 255);
+    border-color: rgba(255, 225, 255, 200);
+    color:rgba(13,175,233,255);
+}
+
+
+#replyWindow{
+background-color: #F2F2F2;
+}
+
+#replyWindow QLabel{
+ color:rgb(13,175,233);
+ font : bold 19px ;
+  min-width: 200px;
+  min-height: 50px;
+}
+#replyWindow QPushButton{
+     background-color: rgba(196,255,255,100);
+     border-style: outset;
+     border-width: 4px;
+     border-radius: 10px;
+     border-color: rgba(255, 225, 255, 150);
+     font:  bold 17px "Microsoft YaHei";
+     color:rgba(13,175,233,255);
+     min-width: 70px;
+	 min-height: 25px;
+}
+#replyWindow QPushButton:hover {
+    background-color:rgba(196,255,255, 255);
+    border-color: rgba(255, 225, 255, 200);
+    color:rgba(13,175,233,255);
+}
+
+
+#closeWindow{
+    background-color: #F2F2F2;
+}
+#closeWindow QLabel{
+ color:rgb(13,175,233);
+ font : bold 19px ;
+  min-width: 200px;
+  min-height: 50px;
+}
+#okbtn,#canclebtn{
+     background-color: rgba(196,255,255,100);
+     border-style: outset;
+     border-width: 4px;
+     border-radius: 10px;
+     border-color: rgba(255, 225, 255, 150);
+     font:  bold 17px "Microsoft YaHei";
+     color:rgba(13,175,233,255);
+     min-width: 120px;
+	 min-height: 25px;
+}
+#okbtn:hover,#canclebtn:hover{
+    background-color:rgba(196,255,255, 255);
+    border-color: rgba(255, 225, 255, 200);
+    color:rgba(13,175,233,255);
+}
